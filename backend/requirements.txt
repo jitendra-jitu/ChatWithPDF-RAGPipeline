@@ -1,0 +1,8 @@
+Flask
+streamlit
+PyPDF2
+langchain
+google-generativeai
+FAISS
+python-dotenv
+werkzeug
