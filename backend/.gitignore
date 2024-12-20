@@ -5,10 +5,10 @@ __pycache__/
 *.pyd
 *.db
 *.sqlite3
+*.env
 
 # Virtual environment folder (adjust based on your environment name)
 venv/
-.env
 
 # Flask-related folders
 instance/
