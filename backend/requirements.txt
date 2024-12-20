@@ -3,6 +3,7 @@ streamlit
 PyPDF2
 langchain
 google-generativeai
-FAISS
+faiss-cpu
 python-dotenv
 werkzeug
+langchain-google-genai
