@@ -1,21 +1,33 @@
-# Ignore node_modules directory
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment folder (adjust based on your environment name)
+venv/
+.env
+
+# Flask-related folders
+instance/
+uploads/
+
+# React build folder
+/build/
+
+# Node.js dependencies (frontend)
 node_modules/
 
-# Ignore log files
+# Log files
 *.log
 
-# Ignore build directories
-dist/
-build/
-
-# Ignore environment variable files
-.env
-
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
-
-# Ignore IDE-specific files
+# IDE or Editor configurations
 .vscode/
 .idea/
-.env
+*.swp
+
+# macOS and Windows system files
+.DS_Store
+Thumbs.db
