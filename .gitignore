@@ -8,6 +8,7 @@ __pycache__/
 
 # Virtual environment folder (adjust based on your environment name)
 venv/
+.env/
 .env
 
 # Flask-related folders
