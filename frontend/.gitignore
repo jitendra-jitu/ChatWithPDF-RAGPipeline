@@ -12,6 +12,7 @@ venv/
 .env/
 .env
 .env
+test.env
 
 # Flask-related folders
 instance/

@@ -27,6 +27,7 @@ node_modules/
 .vscode/
 .idea/
 *.swp
+test.env
 
 # macOS and Windows system files
 .DS_Store
