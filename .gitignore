@@ -1,37 +1,41 @@
-# Ignore Python bytecode
-__pycache__/
+# Ignore Python virtual environments and other Python-specific files
+backend/.venv/
+backend/__pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.db
 *.sqlite3
-*.env
 
-# Virtual environment folder (adjust based on your environment name)
-venv/
-.env/
-.env
-test.env
+# Ignore local environment configuration files
+backend/.env
+frontend/.env
 
+# Ignore build directories
+frontend/build/
+frontend/node_modules/
 
-# Flask-related folders
-instance/
-uploads/
-
-# React build folder
-/build/
-
-# Node.js dependencies (frontend)
-node_modules/
-
-# Log files
+# Ignore logs and temporary files
 *.log
-
-# IDE or Editor configurations
-.vscode/
-.idea/
+*.tmp
 *.swp
+*.bak
 
-# macOS and Windows system files
+# Ignore system files
 .DS_Store
 Thumbs.db
+
+# Ignore FAISS index files if needed
+backend/faiss_index/
+
+# Ignore IDE-specific files (e.g., for VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.iml
+
+# Ignore npm and yarn lock files in frontend (if not required for production)
+frontend/package-lock.json
+frontend/yarn.lock
+
+# Ignore Git metadata and other repositories
+.git/
